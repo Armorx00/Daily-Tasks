@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list 2 -Ankit Padhiyar</title>
+    <link rel="stylesheet" href="me.css">
+</head>
+
+<body>
+    <form action="" method="post">
+        <h1>To do list</h1>
+        <h2>Task of the day here:</h2>
+        <div class="container" id="container">
+            <ol>
+                <div> <label for="task1">Task 1:</label>
+                    <input class="secondry" type="text" name="task1" id="task1" placeholder="Enter 1st task" required>
+                    <input class="secondry"  value="✓" type="submit" onclick="ToggleEvent()">
+                
+                    <input class="primary"  type="reset" value="x">
+
+
+                </div>
+                <div><br>
+                    <label for="task2">Task 2:</label>
+                    <input class="secondry" type="text" name="task2" id="task2" placeholder="Enter 2nd task" required>
+                    <input class="secondry1"type="reset" value="✓">
+                    <input class="primary" type="reset" value="x">
+
+                </div>
+                <div><br>
+                    <label for="task3">Task 3:</label>
+                    <input class="secondry" type="text" name="task3" id="task3" placeholder="Enter 3rd task" required>
+                    <input class="secondry1" type="submit" value="✓">
+                    <input class="primary" type="reset" value="x">
+
+                </div>
+                <div><br>
+                    <label for="task4">Task 4:</label>
+                    <input class="secondry" type="text" name="task4" id="task4" placeholder="Enter 4th task" required>
+                    <input class="secondry1" type="reset" value="✓">
+                    <input class="primary" type="reset" value="x">
+
+                </div>
+                <div><br>
+                    <label for="task5">Task 5:</label>
+                    <input class="secondry" type="text" name="task5" id="task5" placeholder="Enter 5th task" required>
+                    <input class="secondry1" type="submit" value="✓" onclick="ToggleEvent()">
+                    <input class="primary" type="reset" value="x">
+
+                </div><br>
+
+            </ol>
+            <input class="primary" type="reset" onclick="alert('All tasks have been cleared!')">
+        </div>
+
+    </form>
+<script src="me.js"></script></body>
+
+</html>
